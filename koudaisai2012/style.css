@@ -1,0 +1,247 @@
+﻿@font-face{
+  font-family:'GL';
+  src: url('font/GL-AntiquePlus.otf') format('opentype');
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3",Hiragino Kaku Gothic Pro,"ＭＳ Ｐゴシック",sans-serif;
+	color:#333;
+	font-size:90%;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, #F7F7F7 0%, #B3B3B3 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #F7F7F7 0%, #B3B3B3 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #F7F7F7 0%, #B3B3B3 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #F7F7F7), color-stop(1, #B3B3B3));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #F7F7F7 0%, #B3B3B3 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to top, #F7F7F7 0%, #B3B3B3 100%);
+}
+
+ul{
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+li{
+	width: 228px;
+	height: 171px;
+	float: left;
+	list-style: none;
+	margin: 0 1px 1px 0;
+	padding: 0;
+	border: 1px solid black;
+	background-color: black;
+}
+	li img{
+		height:171;
+	}
+
+h2{
+	border-bottom:1px solid #84b2e0;
+
+	font-weight:normal;
+
+}
+	h2 span{
+		font-family:'GL';
+		font-size:80%;
+	}
+
+p{
+	padding:10px 0 10px 40px;
+	line-height:200%;
+}
+
+#header{
+	padding-top:3px;
+	text-align:center;
+	background-color:white;
+}
+#main{
+	padding:0 0 40px 0;
+	background-color:white;
+	width:80%;
+	min-width:810px;
+	margin:1px auto 0 auto;
+
+box-shadow: 0px 0px 10px rgb(204, 204, 204);
+border: 1px solid rgb(204, 199, 187);
+}
+
+#main_title{
+	background-color:black;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+
+.section{
+	clear:both;
+	padding:40px 0 0 20px;
+}
+
+.section_title{
+	font-family: 'Bitter', serif;
+	border-bottom:1px solid #CCC;
+	width:98%;
+}
+
+#bg{
+	background:url(img/bg.png);
+}
+#footer{
+	text-align:center;
+}
+
+.button{
+display: inline-block;
+font-size: 14px;
+font-weight: bold;
+color: #ffffff;
+text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4), 0 1px 1px rgba(255, 255, 255, 0.5);
+letter-spacing: 0;
+border: none;
+box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.9), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+border-radius: 6px;
+text-decoration: none;
+padding: 12px 40px;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+background: url(http://grad3.ecoloniq.jp/sample/img/icons_09.png) no-repeat 90% center, -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #111), color-stop(0.00, #666));
+background: url(http://grad3.ecoloniq.jp/sample/img/icons_09.png) no-repeat 90% center, -webkit-linear-gradient(#666, #111);
+background: url(http://grad3.ecoloniq.jp/sample/img/icons_09.png) no-repeat 90% center, -moz-linear-gradient(#666, #111);
+background: url(http://grad3.ecoloniq.jp/sample/img/icons_09.png) no-repeat 90% center, -o-linear-gradient(#666, #111);
+background: url(http://grad3.ecoloniq.jp/sample/img/icons_09.png) no-repeat 90% center, -ms-linear-gradient(#666, #111);
+background: url(http://grad3.ecoloniq.jp/sample/img/icons_09.png) no-repeat 90% center, linear-gradient(#666, #111);
+cursor:pointer;
+
+}
+
+.frame{
+	padding:10px 0 10px 10px;
+}
+
+.frame img{
+	border-radius:10px;
+}
+
+.section_content{
+	padding-top:10px;
+}
+
+#don{
+	background:url(img/don_on.png);
+	background-size:228px;
+}
+
+#eringi{
+	background:url(img/eringi_on.png);
+	background-size:228px;
+}
+
+#eleder{
+	background:url(img/eleder_on.png);
+	background-size:228px;
+}
+
+#fuji{
+	background:url(img/fuji_on.png);
+	background-size:228px;
+}
+
+#gou{
+	background:url(img/gou_on.png);
+	background-size:228px;
+}
+
+#isk{
+	background:url(img/isk_on.png);
+	background-size:228px;
+}
+
+#kero{
+	background:url(img/kero_on.png);
+	background-size:228px;
+}
+
+#louis{
+	background:url(img/louis_on.png);
+	background-size:228px;
+}
+
+#minon{
+	background:url(img/minon_on.png);
+	background-size:228px;
+}
+
+#mory{
+	background:url(img/mory_on.png);
+	background-size:228px;
+}
+
+#motty{
+	background:url(img/motty_on.png);
+	background-size:228px;
+}
+
+#okyhat{
+	background:url(img/okyhat_on.png);
+	background-size:228px;
+}
+
+#rodemon{
+	background:url(img/rodemon_on.png);
+	background-size:228px;
+}
+
+#soramame{
+	background:url(img/soramame_on.png);
+	background-size:228px;
+}
+
+#sumin{
+	background:url(img/sumin_on.png);
+	background-size:228px;
+}
+
+#takamoto{
+	background:url(img/takamoto_on.png);
+	background-size:228px;
+}
+
+#tokisame{
+	background:url(img/tokisame_on.png);
+	background-size:228px;
+}
+
+#tommy{
+	background:url(img/tommy_on.png);
+	background-size:228px;
+}
+
+#ven{
+	background:url(img/ven_on.png);
+	background-size:228px;
+}
+
+#yoshi{
+	background:url(img/yoshi_on.png);
+	background-size:228px;
+}
